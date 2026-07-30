@@ -1,4 +1,4 @@
-# ventaexpress-sales-analysis# Análisis de Ventas Q4 2024 — VentaExpress
+# Análisis de Ventas Q4 2024 — VentaExpress
 
 **Pregunta de negocio:** ¿Qué patrones de ventas del cuarto trimestre de 2024 pueden
 informar la estrategia comercial de enero de 2025?
