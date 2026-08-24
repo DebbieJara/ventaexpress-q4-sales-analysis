@@ -1,45 +1,40 @@
-# Análisis de Ventas Q4 2024 — VentaExpress
+# ventaexpress-q4-sales-analysis
 
-**Pregunta de negocio:** ¿Qué patrones de ventas del cuarto trimestre de 2024 pueden
-informar la estrategia comercial de enero de 2025?
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat&logo=google-sheets&logoColor=white)
 
-## Contexto
-VentaExpress es una empresa de e-commerce que vende tecnología (laptops, teléfonos,
-auriculares, tablets) en México y Colombia. Se analizaron los datos de ventas de
-octubre-diciembre 2024, entregados sin procesar (formato inconsistente, valores
-duplicados y ausentes, columnas desorganizadas).
+**Business question:** What Q4 2024 sales patterns can inform the January 2025 commercial strategy?
 
-## Proceso
-1. **Limpieza:** se identificaron y corrigieron caracteres especiales mal codificados,
-   celdas vacías (12 en Precio unitario, 7 en Monto total), formato de columnas
-   (símbolo de moneda, tipos de dato) y una fecha inválida (16/16/2024), eliminada
-   tras verificar que no correspondía a ningún día real.
-2. **Análisis:** cálculo de métricas por producto, ciudad, categoría y mes.
-3. **Visualización:** construcción de gráficas ejecutivas para comunicar hallazgos.
+## Context
 
-## Hallazgos clave
-- Producto más vendido por cantidad: Laptop-Oficina-32GB
-- Ciudad con mayor volumen de ventas: Ciudad de México
-- Precio promedio por categoría: Auriculares $1,253.74 · Laptop $1,305.42 ·
-  Tablet $1,261.51 · Teléfono $1,281.17
-- Las ventas crecen de forma pronunciada a partir de septiembre, alcanzando un
-  máximo de ~$1.07M en octubre. Noviembre se mantiene casi al mismo nivel
-  (-1.4%), pero diciembre presenta una caída más marcada de 8.9%
-  (~$94K menos que noviembre).
+VentaExpress is an e-commerce company selling technology products (laptops, phones, headphones, tablets) in Mexico and Colombia. October-December 2024 sales data was analyzed as delivered, unprocessed (inconsistent formatting, duplicate and missing values, disorganized columns).
 
-![Visualizaciones](visualizaciones.png)
+## Process
 
-## Recomendación
-Analizar las estrategias de marketing aplicadas en octubre-noviembre para
-replicarlas hacia enero y frenar la tendencia a la baja iniciada en diciembre.
+1. **Cleaning:** identified and corrected mis-encoded special characters, empty cells (12 in Unit Price, 7 in Total Amount), column formatting (currency symbol, data types), and one invalid date (16/16/2024), removed after confirming it did not correspond to a real calendar day.
+2. **Analysis:** calculated metrics by product, city, category, and month.
+3. **Visualization:** built executive charts to communicate findings.
 
-## Limitaciones
-Para profundizar el análisis sería necesario contar con datos de la ejecución
-real de las campañas de marketing, y calcular la rentabilidad (no solo el
-ingreso) para confirmar que ciudades como CDMX y Cali generan margen saludable,
-no solo flujo de caja.
+## Key findings
 
-## Herramientas
-Google Sheets (limpieza, análisis, visualización)
+- Best-selling product by quantity: Laptop-Oficina-32GB
+- City with highest sales volume: Mexico City
+- Average price by category: Headphones $1,253.74 · Laptop $1,305.42 · Tablet $1,261.51 · Phone $1,281.17
+- Sales grow sharply starting in September, peaking at ~$1.07M in October. November holds nearly the same level (-1.4%), but December shows a sharper drop of 8.9% (~$94K less than November).
 
-**Dataset completo:** [Ver en Google Sheets](https://docs.google.com/spreadsheets/d/1qVelKsjQykPKQqOiyyu1A5sLLQGvSSKn/edit?usp=sharing&ouid=106602298566061042272&rtpof=true&sd=true)
+## Visualizations
+
+![Total sales by city and monthly sales evolution](images/q4-sales-charts.png)
+
+Total sales by city (Mexico City leads, followed by Cali and Monterrey) and monthly sales evolution, showing the sharp Q4 spike and December's decline.
+
+## Recommendation
+
+Analyze the marketing strategies used in October-November to replicate them in January and slow the downward trend that started in December.
+
+## Limitations
+
+Deepening this analysis would require actual marketing campaign execution data, plus a profitability calculation (not just revenue) to confirm that cities like Mexico City and Cali generate healthy margin, not just cash flow.
+
+## Tools
+
+Google Sheets (cleaning, analysis,
