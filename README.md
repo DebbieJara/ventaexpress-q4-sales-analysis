@@ -34,7 +34,7 @@ Analyze the marketing strategies used in October-November to replicate them in J
 
 ## Limitations
 
-Deepening this analysis would require actual marketing campaign execution data, plus a profitability calculation (not just revenue) to confirm that cities like Mexico City and Cali generate healthy margin, not just cash flow.
+Deepening this analysis would require actual marketing campaign execution data, plus a profitability calculation (not just revenue) to confirm that cities like Mexico City and Cali generate healthy margin, not just cash flow. Additionally, Tulum's notably lower sales volume compared to other cities couldn't be explained with the available data — it's unclear whether this reflects a recent market entry or another factor.
 
 ## Tools
 
