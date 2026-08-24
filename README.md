@@ -1,4 +1,4 @@
-# ventaexpress-q4-sales-analysis
+# VentaExpress Q4 2024 Sales Analysis
 
 ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat&logo=google-sheets&logoColor=white)
 
